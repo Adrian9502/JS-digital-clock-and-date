@@ -16,7 +16,7 @@ body {
   overflow: hidden;
 }
 .time-container {
-  font-family: monospace;
+  font-family: "Roboto Mono", monospace;
   z-index: 500;
   text-align: center;
   display: flex;
@@ -49,7 +49,7 @@ body {
   font-size: 20px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 170px;
+  gap: 190px;
   font-family: "Alatsi", sans-serif;
 }
 .date-container {
