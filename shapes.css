@@ -1,0 +1,136 @@
+.circle,
+.circle1,
+.circle2,
+.circle3,
+.circle4,
+.circle5,.circleCopy,.circle1Copy,.circle2Copy,.circle3Copy,.circle4Copy,.circle5Copy {
+  width: 150px;
+  height: 150px;
+  border-radius: 75px;
+  background-color: rgba(255, 0, 98, 0.302);
+  z-index: -1;
+  position: absolute;
+}
+.circle {
+  top: 250px;
+  left: 450px;
+}
+.circleCopy{
+  top: 280px;
+  left: 480px;
+}
+.circle1 {
+  top: 100px;
+  left: 70px;
+}
+.circle1Copy {
+  top: 130px;
+  left: 100px;
+}
+.circle2 {
+  top: 630px;
+  left: 200px;
+}
+.circle2Copy {
+  top: 660px;
+  left: 230px;
+}
+.circle3 {
+  top: 310px;
+  left: 700px;
+}
+.circle3Copy {
+  top: 340px;
+  left: 730px;
+}
+/* right side */
+.circle4,
+.circle5 {
+  background: rgba(76, 0, 255, 0.381);
+}
+.circle4 {
+  top: 10px;
+  left: 1510px;
+}
+.circle4Copy {
+  top: 40px;
+  left: 1540px;
+}
+.circle5 {
+  top: 650px;
+  left: 1320px;
+}
+.circle5Copy {
+  top: 620px;
+  left: 1350px;
+}
+.square,
+.square1,
+.square2,
+.square3,
+.square4,
+.square5,
+.square6,.squareCopy,.square1Copy,.square2Copy,.square3Copy,.square4Copy,.square5Copy,.square6Copy {
+  width: 150px;
+  height: 150px;
+  border-radius: 16px;
+  background-color: rgba(255, 0, 68, 0.236);
+  z-index: -1;
+  position: absolute;
+}
+.square {
+  left: 550px;
+  top: 610px;
+}
+.squareCopy {
+  left: 580px;
+  top: 580px;
+}
+.square1 {
+  left: 1070px;
+  top: 440px;
+}
+.square1Copy {
+  left: 1040px;
+  top: 410px;
+}
+.square2 {
+  top: 60px;
+  left: 1060px;
+}
+.square2Copy {
+  top: 90px;
+  left: 1030px;
+}
+.square3 {
+  top: 640px;
+  left: 930px;
+
+}.square3Copy {
+  top: 670px;
+  left: 900px;
+}
+.square4 {
+  top: 340px;
+  left: 1330px;
+}.square4Copy {
+  top: 370px;
+  left: 1300px;
+}
+.square5 {
+  top: 400px;
+  left: 30px;
+
+}.square5Copy {
+  top: 430px;
+
+  left: 60px;
+}
+.square6 {
+
+  top: 10px;
+  left: 600px;
+}.square6Copy {
+  top: 40px;
+  left: 630px;
+}

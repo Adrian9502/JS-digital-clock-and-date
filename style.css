@@ -1,0 +1,59 @@
+body {
+  background: rgb(137, 16, 177);
+  background: linear-gradient(
+    267deg,
+    rgb(117, 17, 150) 40%,
+    rgb(17, 24, 162) 73%
+  );
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  color: white;
+  font-weight: 500;
+  overflow: hidden;
+}
+.time-container {
+  font-family: monospace;
+  z-index: 500;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(7px);
+  border: 1px solid rgba(255, 255, 255, 1);
+  background: linear-gradient(
+    52deg,
+    rgba(12, 24, 255, 0.495) 0%,
+    rgba(168, 20, 217, 0.455) 58%
+  );
+  border-radius: 16px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  height: fit-content;
+
+  width: fit-content;
+  padding: 20px;
+}
+
+.clock {
+  font-size: 90px;
+  border-radius: inherit;
+  display: inline-block;
+}
+.time {
+  font-size: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 170px;
+  font-family: "Alatsi", sans-serif;
+}
+.date-container {
+  width: fit-content;
+  font-size: 60px;
+  font-family: "Alatsi", sans-serif;
+}
